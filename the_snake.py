@@ -33,7 +33,7 @@ APPLE_COLOR = (255, 0, 0)
 SNAKE_COLOR = (0, 255, 0)
 
 # скорость движения змейки
-SPEED = 15
+SPEED = 20
 
 # настройка игрового окна
 screen = pg.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
