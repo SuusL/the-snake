@@ -76,7 +76,7 @@ class Apple(GameObject):
     """Класс объекта Яблоко на игровом поле."""
 
     def __init__(self,
-                 occupied_positions: list = [SCREEN_CENTER],
+                 occupied_positions: list = (SCREEN_CENTER),
                  body_color: tuple = APPLE_COLOR,
                  border_color: tuple = BORDER_COLOR
                  ) -> None:
